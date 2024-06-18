@@ -50,7 +50,7 @@ export default function Navbar() {
             <AppBar position="sticky" className={styles.customNavbar}>
                 <Toolbar>
                     <Typography className={styles.customLogo} variant="h6" sx={{ flexGrow: 1 }}>
-                        Your logo here
+                        Cem Saridogan
                     </Typography>
                     <div className={styles.hideOnSmallScreen}>
                         <a href="#home" className={styles.customNavbarItem} onClick={(e) => handleScroll(e, 'home')}>Home</a>
