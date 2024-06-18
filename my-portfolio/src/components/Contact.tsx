@@ -17,19 +17,19 @@ export default function Contact() {
                     <div className={styles.contactField}>
                         <LocationOn className={styles.contactIconPlace} />
                         <Typography variant="body1" className={styles.contactText}>
-                            Your Location
+                            Ankara, TURKEY
                         </Typography>
                     </div>
                     <div className={styles.contactField}>
                         <Email className={styles.contactIconMail} />
                         <Typography variant="body1" className={styles.contactText}>
-                            your-email@example.com
+                            cemsrdgn@gmail.com
                         </Typography>
                     </div>
                     <div className={styles.contactField}>
                         <Phone className={styles.contactIconPhone} />
                         <Typography variant="body1" className={styles.contactText}>
-                            +1 (234) 567-8901
+                            +90 539 882 00 74
                         </Typography>
                     </div>
                 </div>

@@ -30,11 +30,15 @@ export default function About() {
                     </Typography>
 
                     <Typography variant="body1" className={styles.customAboutText}>
-                        (the section with the necessary information about you)
+                        I am a fourth-year Computer Science student with a keen interest in web development and software engineering.
+                        My journey in the tech world has been marked by my enthusiasm for learning and building innovative solutions.
+                        During my studies, I have gained extensive experience in developing web applications,
+                        utilizing various technologies and frameworks. I had the privilege of interning at TUBITAK Bilgem,
+                        where I honed my skills .
                     </Typography>
 
                     {/* You can add your CV or any documents here*/}
-                    <Link href="/documents/defaultCV.pdf" passHref legacyBehavior>
+                    <Link href="/documents/CV-CemSaridogan(English).pdf" passHref legacyBehavior>
                         <a target="_blank" rel="noopener noreferrer" className={styles.customAboutButton}>
                             <Button style={{ color:'white'}}>
                                 Download CV <FileDownloadTwoTone/>

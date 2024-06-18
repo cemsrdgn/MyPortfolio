@@ -10,27 +10,34 @@ export default function Projects() {
 
     const projects = [
         {
-            title: 'Project 1',
-            description: 'Description of project 1.',
-            github: 'https://github.com/your-profile/project1',
+            title: 'Fitness-Challenge-App',
+            description: 'Web application that allows users to participate in fitness challenges and track their progress.' +
+                ' Users can join challenges with friends or other users to compete against each other and stay motivated.',
+            github: 'https://github.com/cemsrdgn/Fitness-Challenge-App',
             image: '/images/project1.png' // Replace with your image path
         },
         {
-            title: 'Project 2',
-            description: 'Description of project 2.',
-            github: 'https://github.com/your-profile/project2',
+            title: 'Reservation System',
+            description: 'Basic project for making reservations and creating rooms.Working with SQL database. ',
+            github: 'https://github.com/cemsrdgn/Ceng382_23_24_s_202011065',
             image: '/images/project2.png' // Replace with your image path
         },
         {
-            title: 'Project 3',
-            description: 'Description of project 3.',
-            github: 'https://github.com/your-profile/project3',
+            title: 'My Portfolio Project',
+            description: 'A modern and responsive portfolio website built with React, Next.js, and MUI. ' +
+                'This project showcases your profile photo, brief description, detailed about me section,' +
+                ' skills, projects, and contact information.',
+            github: 'https://github.com/cemsrdgn/MyPortfolio',
             image: '/images/project3.png' // Replace with your image path
         },
         {
-            title: 'Project 4',
-            description: 'Description of project 4.',
-            github: 'https://github.com/your-profile/project4',
+            title: 'Work Compliance Analysis System',
+            description: 'The Work Compliance Analysis System is a platform that evaluates and categorizes the' +
+                ' qualifications of university graduates and matches them with the most suitable job positions.' +
+                ' Users discover the most suitable jobs for them based on their educational background, skill sets,' +
+                ' experience and many other factors.' +
+                ' Work Compliance Analysis System also provides users with specially created job offers.',
+            github: 'https://github.com/cemsrdgn/Work_Compliance_Analysis_System',
             image: '/images/project4.png' // Replace with your image path
         }
     ];
