@@ -1,0 +1,88 @@
+.customNavbar {
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.customLogo {
+    flex-grow: 1;
+    color: black;
+    font-family: "Lucida Handwriting", "cursive";
+    font-size: 1.75rem;
+}
+
+.customNavbarItem {
+    color: black;
+    font-family: "Georgia", "serif";
+    font-size: 18px;
+    padding-right: 25px;
+    text-transform: none;
+    text-align: center;
+}
+
+.customNavbarLastItem {
+    color: black;
+    font-family: "Georgia", "serif";
+    font-size: 18px;
+    text-transform: none;
+    margin-right: 150px;
+}
+
+.customNavbarItem:hover, .customNavbarLastItem:hover {
+    color: #007bff;
+    background-color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #e5e5e5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    margin-top:  60px;
+    max-width: fit-content;
+}
+
+.sidenav a {
+    padding: 12px 20px 8px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #5a5a5a;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    font-size: 36px;
+    padding: 10px 20px;
+    align-self: center;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.showOnSmallScreen {
+    display: none;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .showOnSmallScreen {
+        display: flex;
+    }
+    .hideOnSmallScreen {
+        display: none;
+    }
+}

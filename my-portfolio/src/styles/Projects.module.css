@@ -1,0 +1,92 @@
+.customProjectsContainer {
+    margin-top: 100px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.customProjectsHeader {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: rgba(0, 0, 0, 0.68);
+    text-align: center;
+}
+
+.customProjectsSubHeader {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Georgia, sans-serif;
+    font-style: inherit;
+    color: rgba(0, 0, 0, 0.66);
+    margin-bottom: 50px;
+}
+
+.carousel .control-prev.control-arrow,
+.carousel .control-next.control-arrow {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.carousel .control-prev.control-arrow {
+    left: -50px; /* adjust as needed */
+}
+
+.carousel .control-next.control-arrow {
+    right: -50px; /* adjust as needed */
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.projectImage {
+    height: 300px;
+    margin-right: 20px;
+    max-width: 400px;
+
+}
+
+.projectContent {
+    flex: 1;
+}
+
+.projectTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.projectDescription {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.githubButton {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4e3a70;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 1120px;
+    margin-bottom: 20px;
+}
+
+.githubButton:hover {
+    background-color: #8568bb;
+}

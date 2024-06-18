@@ -1,0 +1,65 @@
+.customAboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px;
+    gap: 50px;
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+
+.customAboutImage {
+    flex: 1;
+    border-radius: 20px;
+}
+
+.customAboutContent {
+    flex: 1;
+}
+
+.customAboutHeader {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: rgba(0, 0, 0, 0.68);
+    text-align: center;
+}
+
+.customAboutSubheader {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Georgia, serif;
+    color: rgba(0, 0, 0, 0.66);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.customAboutText {
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    color: rgba(0, 0, 0, 0.66);
+    line-height: 1.6;
+}
+
+.customAboutButton {
+    margin-top: 10%;
+    font-size: 18px;
+    width: 200px;
+    font-family: "Georgia", serif;
+    color: #ffffff;
+    background-color: #0056b3;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.customAboutButton:hover {
+    background-color: #004494;
+    transform: translateY(-5px);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
